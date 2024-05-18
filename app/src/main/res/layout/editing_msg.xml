@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/titleFOrEditDIalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="новое имя"
+        android:textSize="8pt"
+        android:textColor="#616161"
+        android:textColorHint="#616161"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"/>
+    <EditText
+        android:id="@+id/editTextForText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="новые сообщение"
+        android:textSize="8pt"
+        android:textColor="#616161"
+        android:textColorHint="#616161"
+        android:background="@drawable/round_button"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/buttonForExitDIA"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:text="Отмена"
+        android:textSize="5pt"
+        android:layout_marginRight="75dp"
+        app:backgroundTint="#FF0000"
+        android:background="@drawable/round_button1"/>
+    <Button
+        android:id="@+id/buttonForCompDIA"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="5pt"
+        android:text="Заменить"
+        app:backgroundTint="#50C878"
+        android:background="@drawable/round_button1"/>
+    </LinearLayout>
+
+</LinearLayout>

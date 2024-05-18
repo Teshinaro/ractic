@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "3484925118",
+    "firebase_url": "https://first-app-621e9-default-rtdb.firebaseio.com",
+    "project_id": "first-app-621e9",
+    "storage_bucket": "first-app-621e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3484925118:android:b7cc6a8d63fb309cec32ef",
+        "android_client_info": {
+          "package_name": "com.example.ractic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq5_KpmRAfC7jGWdDY4t5UaQICph23pQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

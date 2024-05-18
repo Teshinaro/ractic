@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatNormal.Reg.SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_margin="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="регистрация"
+            android:layout_marginBottom="25dp"
+            android:textSize="13pt"/>
+        <EditText
+            android:id="@+id/loginUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Логин"/>
+        <EditText
+            android:id="@+id/NameUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя"/>
+        <EditText
+            android:id="@+id/PassUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"/>
+        <EditText
+            android:id="@+id/PassUpRpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите снова пароль"/>
+        <Button
+            android:id="@+id/CreateAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Создать Аккаунт"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/goTosignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="у вас уже есть аккаунт? Войти"
+            android:textSize="5pt"/>
+    </LinearLayout>
+
+</RelativeLayout>
